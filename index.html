@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link href="https://fonts.googleapis.com/css?family=Corinthia|Sofia|Aladin|Merianda|Pacifico" rel="stylesheet">
+        <script src="https://chigozie-coder.github.io/Swoader/Swoader.js"></script>
+         <!-- animation    -->
+
+        <script src="./animation.js"></script>
+        <!--for loader-->
+         <script type="text/javascript" charset="utf-8">
+           var swoader = new Swoader("white","80","#272727");
+           swoader.start()
+           swoader.addText("loading","50px","white")
+           swoader.animateText()
+           swoader.removeWhenWindowLoaded()
+            </script>
+            <script src="https://www.wpromotions.eu/confetti.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    </head>
+    <body>
+        
+                    <style type="text/css" media="all">
+            body,html{
+                width: 100vw;
+                height: 100vh;
+                box-sizing: border-box;
+                margin: 0;
+                padding:top;
+                display: flex;
+                place-content: center;
+                place-items: center;
+                background: linear-gradient(to top left, #232323 50%, #333333 50%);
+            }
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            #card__Con{
+                background: linear-gradient(to top left, #FF429D 50%, #FF5FAC 50%);
+                width: 250px;
+                height: 350px;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                place-items: center;
+                text-align: center;
+                box-shadow: 0 0 2pt ;
+            }
+            #card__img{
+                width: 100px;
+                height: 100px;
+                border-radius: 100px;
+                border: 2px solid #EEEEEE;
+                margin-top:10px;
+            }
+            #card__name{
+                font-family:"Pacifico", "corinthia", serif;
+                font-size: 25;
+                font-weight: 1000;
+                color: #EEEEEE;
+                font-style: italic;
+                outline: none;
+            }
+            #card__text{
+                font-family: "Sofia";
+                color: white;
+                font-weight: 1000;
+                font-style: oblique;
+                outline: none;
+            }
+            #cake{
+                margin-top: 10px; 
+                width: 75px;
+                height: 75px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="card__Con">
+            <img id="card__img" src="https://api.sololearn.com/Uploads/Avatars/19529382.jpg" alt="" />
+            <h1 id="card__name">Vaishanavi</h1>
+            <div id="card__text">Wishing you the happiest and joyous birthday. Have a happy Birthday!</div>
+            <img id="cake" src="https://freepngimg.com/thumb/cake/37239-9-birthday-cake-transparent-background.png" alt="" />
+        </div>
+        <audio id="HBDmp" loop>
+         <!-- <source src="https://dl.dropbox.com/s/c6aq63o2mwuvkui/Happy-Birthday-to-you-Singing-Bell.mp3"> -->
+         <source src="https://github.com/Rathin-Gorai/Bday/blob/main/y2mate.com%20-%20%20Happy%20BirthdayGreetings%20Wishes%20whatsapp%20status%20video%20Hindi.mp3?raw=true">
+      </audio>
+            
+    </body>
+</html>
