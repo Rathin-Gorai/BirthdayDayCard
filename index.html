@@ -38,25 +38,25 @@
             }
             #card__Con{
                 background: linear-gradient(to top left, #FF429D 50%, #FF5FAC 50%);
-                width: 250px;
-                height: 350px;
+                width: 780px;
+                height: 1320px;
                 border-radius: 10px;
                 display: flex;
                 flex-direction: column;
                 place-items: center;
                 text-align: center;
-                box-shadow: 0 0 2pt ;
+                box-shadow: 0 0 20pt ;
             }
             #card__img{
-                width: 100px;
-                height: 100px;
-                border-radius: 100px;
+                width: 400px;
+                height: 400px;
+                border-radius: 500px;
                 border: 2px solid #EEEEEE;
-                margin-top:10px;
+                margin-top:100px;
             }
             #card__name{
                 font-family:"Pacifico", "corinthia", serif;
-                font-size: 25;
+                font-size: 120px;
                 font-weight: 1000;
                 color: #EEEEEE;
                 font-style: italic;
@@ -64,15 +64,17 @@
             }
             #card__text{
                 font-family: "Sofia";
+                font-size: 40px;
                 color: white;
                 font-weight: 1000;
                 font-style: oblique;
                 outline: none;
+                padding-top: 10px;
             }
             #cake{
                 margin-top: 10px; 
-                width: 75px;
-                height: 75px;
+                width: 300px;
+                height: 300px;
             }
         </style>
     </head>
@@ -85,8 +87,12 @@
         </div>
         <audio id="HBDmp" loop>
          <!-- <source src="https://dl.dropbox.com/s/c6aq63o2mwuvkui/Happy-Birthday-to-you-Singing-Bell.mp3"> -->
-         <source src="https://github.com/Rathin-Gorai/Bday/blob/main/y2mate.com%20-%20%20Happy%20BirthdayGreetings%20Wishes%20whatsapp%20status%20video%20Hindi.mp3?raw=true">
-      </audio>
+         <!-- <source src="https://github.com/Rathin-Gorai/Bday/blob/main/y2mate.com%20-%20%20Happy%20BirthdayGreetings%20Wishes%20whatsapp%20status%20video%20Hindi.mp3?raw=true"> -->
+        <source src="Song.mp3">
+        </audio>
+        <script>
+             document.getElementById("HBDmp").play();
+        </script>
             
     </body>
 </html>
