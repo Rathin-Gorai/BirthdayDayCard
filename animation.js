@@ -1,6 +1,6 @@
 window.onload =()=>{
                 confetti.start()
-                Swal.fire({
+                Swal.fire(
                     
                     title:"Happy Birthday Vaishanavi di",
                     text:`I didnt know that today is your birthday I would have created something better
@@ -8,9 +8,9 @@ window.onload =()=>{
                     button:"Lets Go"
 
                     
-                }).then(function(){ 
+                ).then(function(){ 
    HBDmp.play();
-   }
+   });
 
 
 
