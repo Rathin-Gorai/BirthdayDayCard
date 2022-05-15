@@ -8,7 +8,12 @@ window.onload =()=>{
                     button:"Lets Go"
 
                     
-                })
+                }).then(function(){ 
+   HBDmp.play();
+   }
+
+
+
                 // document.getElementById("HBDmp").play()
-                HBDmp.play();
+                
                 }
