@@ -3,8 +3,7 @@ window.onload =()=>{
                 Swal.fire({
                     
                     title:"Happy Birthday Vaishanavi di",
-                    text:`I didnt know that today is your birthday I would have created something better
-                    Card created by Birthday Card Maker by me.`,
+                    text:`Happy birthday! I hope all your birthday wishes and dreams come true.`,
                     button:"Lets Go"
 
                     
