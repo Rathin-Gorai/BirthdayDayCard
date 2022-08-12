@@ -2,7 +2,7 @@ window.onload =()=>{
                 confetti.start()
                 Swal.fire({
                     
-                    title:"Happy Birthday Aman",
+                    title:"Happy Birthday Shashi",
                     text:`Happy birthday! I hope all your birthday wishes and dreams come true.`,
                     button:"Lets Go"
 
